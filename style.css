@@ -3,3 +3,52 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: white;
+}
+
+.container {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container .card {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.container .card .link-web a {
+  text-decoration: none;
+  color: black;
+}
+.container .card .link-web a:hover {
+  color: blue;
+}
+
+.card .gambar img {
+  width: 200px;
+  height: 100px;
+  padding: 0 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
