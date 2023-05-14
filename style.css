@@ -67,6 +67,11 @@ body {
   -o-border-radius: 20px;
   box-shadow: -19px 21px 24px -12px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: -19px 21px 24px -12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.container-card .card:hover {
+  transform: translateX(10px);
 }
 
 .container-card .card .deskripsi {
